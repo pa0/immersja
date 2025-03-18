@@ -1,0 +1,168 @@
+---
+title: "Ocena jakości zakwalifikowanych badań"
+author: Paweł Kleka
+format: html
+---
+
+# **Struktura skali JADAD**
+
+Skala ta składa się z **trzech głównych kryteriów**, które dotyczą kluczowych aspektów metodologii badania:
+
+1.  **Randomizacja (0–2 punkty)**
+    -   +1 punkt: Jeśli badanie zostało opisane jako randomizowane.
+    -   +1 dodatkowy punkt: Jeśli sposób randomizacji został poprawnie opisany i jest odpowiedni (np. użycie tabeli liczb losowych, komputerowej randomizacji).
+    -   -1 punkt: Jeśli metoda randomizacji została opisana, ale jest niewłaściwa (np. przydział według daty urodzenia).
+2.  **Zaślepienie (0–2 punkty)**
+    -   +1 punkt: Jeśli badanie zostało opisane jako zaślepione.
+    -   +1 dodatkowy punkt: Jeśli metoda zaślepienia została poprawnie opisana i jest adekwatna (np. stosowanie placebo identycznego w wyglądzie).
+    -   -1 punkt: Jeśli metoda zaślepienia została opisana, ale jest niewłaściwa (np. tabletki badane i placebo różnią się wyglądem).
+3.  **Opis wycofań i rezygnacji (0–1 punkt)**
+    -   +1 punkt: Jeśli badanie zawiera pełny opis wycofań uczestników i podaje ich przyczyny.
+
+------------------------------------------------------------------------
+
+## **Zakres punktacji i interpretacja**
+
+Maksymalny wynik w skali JADAD to **5 punktów**, a minimalny **0 punktów**.
+
+• **0–2 punkty** → Niska jakość metodologiczna (wysokie ryzyko biasu).
+
+• **3–5 punktów** → Wysoka jakość metodologiczna (niskie ryzyko biasu).
+
+------------------------------------------------------------------------
+
+### **Zalety skali JADAD**
+
+✅ Szybka i łatwa w użyciu – ocena zajmuje kilka minut.
+
+✅ Powszechnie stosowana w przeglądach systematycznych i meta-analizach.
+
+✅ Koncentruje się na kluczowych aspektach wpływających na rzetelność wyników badań RCT.
+
+### **Wady skali JADAD**
+
+❌ Nie ocenia ukrycia przydziału (*allocation concealment*), które jest istotnym elementem zapobiegania biasowi.
+
+❌ Skupia się głównie na RCT – nie nadaje się do oceny badań obserwacyjnych.
+
+❌ Może nie uwzględniać wszystkich możliwych źródeł błędu systematycznego.
+
+------------------------------------------------------------------------
+
+# **Jak użyć RoB 2.0 w projekcie**
+
+RoB 2.0 (Risk of Bias 2) to narzędzie oceny ryzyka błędu systematycznego w badaniach randomizowanych. **Uwzględnia wiele źródeł biasu** – np. błędy w randomizacji, selekcję uczestników, stronniczość wynikającą z rezygnacji uczestników, selektywne raportowanie wyników. **Lepsza kontrola nad różnorodnymi metodologiami** – w badaniach nad immersją mogą być stosowane zarówno **eksperymenty laboratoryjne**, jak i **badania quasi-eksperymentalne**, a RoB 2.0 pozwala na ich dokładną ocenę.
+
+## **Procedura oceny jakości badań z użyciem RoB 2.0**
+
+### **Krok 1: Wybór badań do oceny**
+
+1.  Uwzględnij tylko **randomizowane badania eksperymentalne** lub **quasi-eksperymentalne** badające wpływ immersji w RPG na udzielanie odpowiedzi w testach psychologicznych.
+
+2.  Ekskluduj badania korelacyjne, ponieważ RoB 2.0 nie jest dla nich odpowiednie.
+
+3.  Każde wybrane badanie oceniaj **niezależnie przez dwóch recenzentów** – aby zapewnić rzetelność oceny.
+
+------------------------------------------------------------------------
+
+### **Krok 2: Ocena ryzyka błędu systematycznego (biasu) w 5 obszarach**
+
+Każde badanie ocenia się w pięciu domenach, stosując trzy możliwe wyniki:
+
+✅ Niskie ryzyko biasu \| ⚠️ Niejasne ryzyko biasu \| ❌ Wysokie ryzyko biasu
+
+1.  Bias związany z procesem randomizacji
+
+-   Czy uczestnicy zostali przypadkowo przypisani do grup (immersja vs. kontrolna)?
+
+-   Czy procedura randomizacji była odpowiednia (np. tabela liczb losowych, komputerowa randomizacja)?
+
+-   Czy ukryto przydział (allocation concealment) – czyli badacze i uczestnicy nie wiedzieli, kto trafi do której grupy przed przypisaniem?
+
+> ➡ Jeśli randomizacja była właściwa i ukryta → ✅ niski bias
+>
+> ➡ Jeśli metoda randomizacji nie została jasno opisana → ⚠️ niejasny bias
+>
+> ➡ Jeśli nie było randomizacji lub ukrycia przydziału → ❌ wysoki bias
+
+2.  Bias wynikający z odstępstw od przypisanych interwencji
+
+-   Czy uczestnicy naprawdę doświadczyli immersji na poziomie deklarowanym przez badaczy?
+
+-   Czy badacze ingerowali w doświadczenie immersji w sposób, który mógł wpłynąć na wyniki?
+
+-   Czy uczestnicy i prowadzący badanie byli zaślepieni (blinding) względem warunków eksperymentu?
+
+> ➡ Jeśli interwencja była zgodna z założeniami, a uczestnicy/badacze nie mogli wpłynąć na wyniki → ✅ niski bias
+>
+> ➡ Jeśli nie podano informacji o manipulacji immersją → ⚠️ niejasny bias
+>
+> ➡ Jeśli grupa kontrolna i eksperymentalna nie były dobrze kontrolowane → ❌ wysoki bias
+
+3.  Bias wynikający z braków danych wynikowych
+
+-   Czy w badaniu duża liczba uczestników odpadła (drop-out rate)?
+
+-   Czy analiza wyników uwzględniała wszystkich przypisanych uczestników (intention-to-treat analysis)?
+
+-   Czy badacze podali przyczyny wycofania uczestników?
+
+> ➡ Jeśli liczba wycofań \<5% i podano przyczyny → ✅ niski bias
+>
+> ➡ Jeśli odsetek wycofań jest wyższy, ale analiza ITT została przeprowadzona → ⚠️ niejasny bias
+>
+> ➡ Jeśli liczba wycofań jest wysoka i nie podano przyczyn → ❌ wysoki bias
+
+4.  Bias wynikający z pomiaru wyników
+
+-   Czy narzędzia psychologiczne do pomiaru rzetelności odpowiedzi były standaryzowane i dobrze zwalidowane?
+
+-   Czy oceniający wyniki byli zaślepieni względem grupy badanej (immersja vs. kontrola)?
+
+-   Czy wyniki były mierzone obiektywnie czy zależały od samoopisu uczestników?
+
+> ➡ Jeśli narzędzia były dobrze zwalidowane i zaślepienie ocen było możliwe → ✅ niski bias
+>
+> ➡ Jeśli narzędzia samoopisowe były używane bez dodatkowych mechanizmów kontroli → ⚠️ niejasny bias
+>
+> ➡ Jeśli badacze wiedzieli, w której grupie są uczestnicy i mogli wpłynąć na ocenę → ❌ wysoki bias
+
+5.  Bias wynikający z selektywnego raportowania wyników
+
+-   Czy wszystkie zmienne zostały raportowane, czy tylko te, które potwierdzają hipotezy?
+
+-   Czy badanie miało przedrejestrowany protokół (np. w OSF, ClinicalTrials.gov)?
+
+> ➡ Jeśli wyniki odpowiadają pierwotnym założeniom i raportowano wszystkie zmienne → ✅ niski bias
+>
+> ➡ Jeśli badanie nie miało zarejestrowanego protokołu, ale raportowane wyniki są spójne → ⚠️ niejasny bias
+>
+> ➡ Jeśli pominięto niektóre wyniki lub manipulowano danymi → ❌ wysoki bias
+
+------------------------------------------------------------------------
+
+### Krok 3: Ogólna ocena ryzyka biasu dla każdego badania
+
+-   NISKIE ryzyko biasu → Wszystkie pięć domen ocenione jako niskie.
+
+-   SOME CONCERNS (pewne obawy) → Przynajmniej jedna domena oceniona jako niejasna (⚠️).
+
+-   WYSOKIE ryzyko biasu → Przynajmniej jedna domena oceniona jako wysoka (❌).
+
+Dla każdego badania podsumowanie w tabeli, np.:
+
+| Badanie | Randomizacja | Odstępstwa od interwencji | Braki danych | Pomiar wyników | Selektywne raportowanie | Ocena końcowa |
+|----|----|----|----|----|----|----|
+| XYZ (2022) | ✅ Niskie | ⚠️ Niejasne | ✅ Niskie | ✅ Niskie | ❌ Wysokie | ❌ Wysokie |
+| ABC (2021) | ✅ Niskie | ✅ Niskie | ✅ Niskie | ⚠️ Niejasne | ✅ Niskie | ⚠️ Pewne obawy |
+
+------------------------------------------------------------------------
+
+### **Krok 4: Wykorzystanie wyników oceny RoB 2.0**
+
+1.  Wykresy ryzyka biasu → użyć {robvis} do wizualizacji biasu.
+2.  Analiza wrażliwości → czy wyniki meta-analizy zmieniają się po wykluczeniu badań o wysokim ryzyku biasu.
+
+::: callout-note
+Jeśli większość badań ma wysoki bias, wyniki meta-analizy są mniej wiarygodne i warto przeprowadzić dodatkowe eksperymenty.
+:::
