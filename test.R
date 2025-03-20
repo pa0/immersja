@@ -1,1 +1,1 @@
-od julii 
+# Dla Julii ;-)
