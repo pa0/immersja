@@ -5,9 +5,7 @@ source: https://elicit.com/review/deb9dbbe-da6e-45c2-a73b-4e94f64c9431
 author: Elicit
 ---
 
-
-
-Gry mogą  służyć jako niezawodne narzędzie do pomiaru zmiennych psychologicznych, takich jak uprzedzenia poznawcze czy inteligencja emocjonalna. Oceny oparte na grach wykorzystują angażujący charakter rozgrywki do oceny zdolności poznawczych i emocjonalnych w bardziej interaktywny sposób niż tradycyjne metody. Na przykład, gry mogą być zaprojektowane tak, aby prezentować scenariusze społeczne, które oceniają indywidualny iloraz inteligencji emocjonalnej (EQ), koncentrując się na empatii i regulacji emocjonalnej. Z kolei, uprzedzenia poznawcze mogą być mierzone poprzez rozgrywkę, która wyzwala określone uprzedzenia, pozwalając na zniuansowane zrozumienie procesów decyzyjnych. Co więcej, analiza danych behawioralnych z rozgrywki może ujawnić wzorce w tych zmiennych psychologicznych, zwiększając wiarygodność ocen. 
+Gry mogą służyć jako niezawodne narzędzie do pomiaru zmiennych psychologicznych, takich jak uprzedzenia poznawcze czy inteligencja emocjonalna. Oceny oparte na grach wykorzystują angażujący charakter rozgrywki do oceny zdolności poznawczych i emocjonalnych w bardziej interaktywny sposób niż tradycyjne metody. Na przykład, gry mogą być zaprojektowane tak, aby prezentować scenariusze społeczne, które oceniają indywidualny iloraz inteligencji emocjonalnej (EQ), koncentrując się na empatii i regulacji emocjonalnej. Z kolei, uprzedzenia poznawcze mogą być mierzone poprzez rozgrywkę, która wyzwala określone uprzedzenia, pozwalając na zniuansowane zrozumienie procesów decyzyjnych. Co więcej, analiza danych behawioralnych z rozgrywki może ujawnić wzorce w tych zmiennych psychologicznych, zwiększając wiarygodność ocen.
 
 W miarę jak technologia gier rozwija się, istnieje coraz większy potencjał do tworzenia bardziej zaawansowanych narzędzi diagnostycznych, które mogą wspierać badania nad ludzkim zachowaniem i emocjami.Wprowadzenie takich innowacyjnych metod oceny może również przyczynić się do lepszego zrozumienia różnic indywidualnych w zdolnościach poznawczych, co otworzy nowe możliwości dla personalizacji terapii i interwencji psychologicznych. W miarę jak badania w tej dziedzinie postępują, możemy spodziewać się pojawienia się nowych modeli teoretycznych, które będą integrować wyniki z gier z tradycyjnymi metodami oceny psychologicznej.
 
@@ -15,95 +13,38 @@ Wykorzystanie gier jako narzędzia do pomiaru zmiennych psychologicznych w kontr
 
 Zalety ocen opartych na grach
 
-
-
-
-
 Zaangażowanie i motywacja: Gry z natury angażują użytkowników, co może prowadzić do dokładniejszych ocen poprzez zmniejszenie lęku przed testem i zwiększenie motywacji. Na przykład oceny oparte na grach wykazały pozytywne reakcje kandydatów i zmniejszony lęk w porównaniu z tradycyjnymi testami(Leutner et al., 2023) (Ramos-Villagrasa & Fernández-del-Río, 2023).
 
-
-
 Gromadzenie danych w czasie rzeczywistym: Gry VR mogą stale zbierać dane dotyczące zachowań użytkowników, takie jak ruchy oczu i rozszerzenie źrenic, które predyktują zmienne psychologiczne, takie jak uwaga i impulsywność(Mendez-Encinas et al., 2023).
-
-
 
 Ważność i niezawodność: Badania wykazały, że oceny oparte na grach mogą osiągnąć porównywalną trafność i wiarygodność z tradycyjnymi testami. Na przykład gry mobilne zostały zatwierdzone jako wiarygodne miary kontroli poznawczej u dzieci i młodzieży (Song et al., 2020), a modele uczenia maszynowego zostały wykorzystane w celu zwiększenia trafności predykcyjnej poważnych gier do oceny neuropsychologicznej(Marín-Morales et al., 2021).
 
 Wyzwania i rozważania
 
-
-
-
-
 Standaryzacja i ocena: Brakuje standaryzacji w opracowywaniu i ocenie gier do oceny psychologicznej. Wiele badań nie ocenia dokładnie właściwości psychometrycznych tych gier, co ma kluczowe znaczenie dla ich powszechnego przyjęcia(Wiley et al., 2021).
 
-
-
 Złożoność i interpretacja: Złożoność danych generowanych przez gry może stanowić wyzwanie w interpretacji. Zaawansowane techniki, takie jak uczenie maszynowe, są często wymagane do skutecznej analizy tych danych(Marín-Morales et al., 2021) (Simpson et al., 2022).
-
-
 
 Uczciwość i stronniczość: Zapewnienie uczciwości i minimalizowanie stronniczości w ocenach opartych na grach ma kluczowe znaczenie, szczególnie w kontekstach takich jak rekrutacja. Badania wykazały, że uczenie maszynowe zoptymalizowane pod kątem uczciwości może rozwiązać problemy z parytetem wyników w testach zdolności poznawczych (Leutner et al., 2023).
 
 Chociaż gry oferują obiecującą alternatywę dla tradycyjnych ocen psychologicznych, stanowią również wyjątkowe wyzwania, którymi należy się zająć. Integracja zaawansowanych technologii, takich jak VR i uczenie maszynowe, może zwiększyć dokładność i zaangażowanie tych ocen, ale standaryzacja i rygorystyczna ocena są niezbędne do ich skutecznego wdrożenia.
 
-
-
-
-
-
-
-
-
 Game-Based Assessment
 
 Game-based assessment involves using games as a tool to evaluate cognitive, emotional, or social abilities. This concept is relevant to the query as it explores the potential of games as a reliable tool for measuring psychological variables. Game-based assessment can provide a more engaging and interactive way to assess psychological variables compared to traditional methods.
 
-
-
-
-
-
-
 Rather than ignore the motivating and information-rich features of games in capturing learning, assessment designers need to attend to the ways in which game-play itself can provide a powerful new form of assessment (Halverson & Owen, 2014).
-
-
-
-
 
 Ocena błędów poznawczych
 
 Ocena uprzedzeń poznawczych odnosi się do procesu oceny skłonności jednostki do wydawania irracjonalnych osądów lub decyzji. Gry mogą być projektowane w celu pomiaru uprzedzeń poznawczych, takich jak uprzedzenia potwierdzające lub zakotwiczające, poprzez prezentowanie graczom scenariuszy, które wyzwalają te uprzedzenia. Ta koncepcja jest istotna dla zapytania, ponieważ bada potencjał gier jako narzędzia do pomiaru zmiennych psychologicznych.
 
-
-
-
-
-
-
-
-
 Analiza danych behawioralnych
 
 Analiza danych behawioralnych obejmuje analizę danych na temat zachowań człowieka, takich jak zachowanie w grach, w celu identyfikacji wzorców i trendów.
-
-
-
-
-
-
-
-
 
 Interwencje oparte na grach
 
 Interwencje oparte na grach obejmują używanie gier jako narzędzia do poprawy zdolności poznawczych, emocjonalnych lub społecznych. Ta koncepcja jest istotna dla zapytania, ponieważ bada potencjał gier jako narzędzia do pomiaru zmiennych psychologicznych, takich jak uprzedzenia poznawcze i inteligencja emocjonalna, oraz opracowywania interwencji w celu poprawy tych zdolności.
 
-
-
-
-
-
-
 Po interwencji grupa trenująca odnotowała większą poprawę w zakresie inteligencji płynnej i hamowania reakcji niż grupa kontrolna, co wskazuje, że trening przyczynił się do znacznego przeniesienia tych umiejętności ( Karbach, 2014 ) .
-

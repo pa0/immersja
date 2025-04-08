@@ -1,19 +1,37 @@
 ---
 created: 2025-03-19T19:10:02 (UTC +01:00)
-tags: []
 source: https://elicit.com/review/deb9dbbe-da6e-45c2-a73b-4e94f64c9431
 author: Elicit
+format:
+  pdf:
+    pdf-engine: xelatex
+    cite-method: natbib
+    #csl: apa-pl.csl
+    toc: false
+    keep-tex: false
+    number_sections: false
+fontsize: 10pt
+mainfont: "Times New Roman"
+lang: pl
+geometry: landscape
+bibliography: ValidityReliabilityGameAssessments.bib
+nocite: "@*"
+header-includes:
+  - \usepackage{array}
+  - \usepackage{hyperref}
+  - \usepackage{xcolor}
+  - \hypersetup{colorlinks=true, urlcolor=blue}
 ---
 
-# Validity and Reliability of Digital Game Assessments \| Elicit
+# Validity and Reliability of Digital Game Assessments
 
-Digital game-based assessments show moderate to strong validity (r = 0.30-0.69) and high reliability (α \> 0.70) compared to traditional methods, while offering improved emotional outcomes and practical advantages.
+Digital game-based assessments show moderate to strong validity ( $r = 0.30-0.69$) and high reliability ( $\alpha > 0.70$) compared to traditional methods, while offering improved emotional outcomes and practical advantages.
 
 ## Abstract
 
-Digital game‐based assessments of cognitive variables exhibit moderate convergent validity compared with traditional tasks. In eight studies that paired the two methods, correlations ranged from 0.30 to 0.69. One study using an adaptive digital task detected attention deficits with greater sensitivity than conventional tests, and several reports noted reliability metrics—such as Cronbach’s α values above 0.70 and between‐person reliability as high as 0.97—that support sound measurement properties. Across tests of memory, cognitive control, and executive functions, digital and traditional approaches produced comparable statistical associations.
+Digital game-based assessments of cognitive variables exhibit moderate convergent validity compared with traditional tasks. In eight studies that paired the two methods, correlations ranged from $0.30$ to $0.69$. One study using an adaptive digital task detected attention deficits with greater sensitivity than conventional tests, and several reports noted reliability metrics—such as Cronbach’s α values above 0.70 and between-person reliability as high as 0.97—that support sound measurement properties. Across tests of memory, cognitive control, and executive functions, digital and traditional approaches produced comparable statistical associations.
 
-For emotional variables, two studies provided evidence. One observed that a game‐based math test reduced test anxiety and enhanced engagement relative to a paper test, while another found that virtual reality tasks were perceived as more pleasant than paper‐and‐pencil assessments. Additional practical advantages included faster administration (up to five times quicker) and enhanced ecological validity in certain settings.
+For emotional variables, two studies provided evidence. One observed that a game-based math test reduced test anxiety and enhanced engagement relative to a paper test, while another found that virtual reality tasks were perceived as more pleasant than paper-and-pencil assessments. Additional practical advantages included faster administration (up to five times quicker) and enhanced ecological validity in certain settings.
 
 ## Methods
 
@@ -62,7 +80,7 @@ We found that 8 out of 10 studies included both game-based and traditional asses
 ### Cognitive Assessment Comparisons
 
 | Col1 | Col2 | Col3 | Col4 | Col5 |
-|:-------------|:-------------|:-------------|:-------------|:------------------|
+|:--------------|:--------------|:--------------|:--------------|:--------------|
 | Aneni et al., 2023 | Game-based vs traditional | Correlation coefficient (r) = 0.3-0.69 for 75% of correlations | No mention found | Game-based assessments showed significant correlations with traditional assessments, mostly low to medium strength |
 | Anguera et al., 2016 | EVO vs Flanker and Visual Search tasks | No mention found | No mention found | EVO more sensitive in detecting cognitive deficits than traditional methods |
 | Bipp et al., 2024 | Game-related vs traditional | Correlation coefficient (r) = 0.30 (corrected r = 0.45) | No mention found | Game-related assessments correlated with traditional cognitive measures |
@@ -110,14 +128,14 @@ The included studies provide mixed evidence regarding the measurement accuracy a
 
 -   Improved accuracy:
 
-    -   Anguera et al. (2016) found their digital game-based assessment (EVO) more sensitive in detecting cognitive deficits related to attention in children with 16p11.2 deletion compared to traditional non-adaptive assessments
-    -   Pedersen et al. (2020) reported game-based measures (Skill Lab) showed good convergent validity with traditional tasks, with accepted models having out-of-sample prediction strength (rcv) greater than 0.2
-    -   Shute et al. (2016) found significant correlations (r = 0.40-0.41) between their game-based stealth assessment and established measures of problem-solving skills
+    -   @Anguera2016 found their digital game-based assessment (EVO) more sensitive in detecting cognitive deficits related to attention in children with 16p11.2 deletion compared to traditional non-adaptive assessments
+        -   @Pedersen2023 reported game-based measures (Skill Lab) showed good convergent validity with traditional tasks, with accepted models having out-of-sample prediction strength (rcv) greater than 0.2
+        -   @Shute2016 found significant correlations (r = 0.40-0.41) between their game-based stealth assessment and established measures of problem-solving skills
 
 -   Variable accuracy:
 
-    -   Weiner and Sanchez (2020) reported mixed validity results for their VR game-based assessments across different cognitive abilities
-    -   Aneni et al. (2023) found game-based assessments showed significant correlations with traditional assessments, but many correlations were in the low to medium range (r = 0.3-0.69)
+    -   @Weiner2020 reported mixed validity results for their VR game-based assessments across different cognitive abilities
+    -   @Aneni2023 found game-based assessments showed significant correlations with traditional assessments, but many correlations were in the low to medium range (r = 0.3-0.69)
 
 #### User Experience and Assessment Bias
 
@@ -125,45 +143,30 @@ Several studies highlighted potential advantages of digital game-based assessmen
 
 -   Improved user experience:
 
-    -   Kiili and Ketamo (2018) found their game-based math test lowered test anxiety and increased engagement compared to traditional paper-based tests
-    -   Kourtesis et al. (2020) reported participants found their VR-based assessment tasks more pleasant than traditional paper-and-pencil tests
-    -   Pedersen et al. (2020) noted their game-based assessment (Skill Lab) provided a more engaging and scalable approach compared to traditional methods
+    -   @Kiili2018 found their game-based math test lowered test anxiety and increased engagement compared to traditional paper-based tests
+    -   @Kourtesis2020 reported participants found their VR-based assessment tasks more pleasant than traditional paper-and-pencil tests
+    -   @Pedersen2023 noted their game-based assessment (Skill Lab) provided a more engaging and scalable approach compared to traditional methods
 
 -   Potential sources of bias:
 
-    -   Aneni et al. (2023) found factors such as age, gender, and prior gaming experience may influence the validity of game-based assessments
-    -   Weiner and Sanchez (2020) reported their VR game-based assessments showed adverse impact across demographic groups, similar to traditional assessments
+    -   @Aneni2023 found factors such as age, gender, and prior gaming experience may influence the validity of game-based assessments
+    -   @Weiner2020 reported their VR game-based assessments showed adverse impact across demographic groups, similar to traditional assessments
 
 #### Implementation Considerations
 
 The studies highlight several important considerations for implementing digital game-based assessments:
 
-1.  Efficiency: Pedersen et al. (2020) reported game-based measures were five times faster than equivalent task-based measures.
-2.  Ecological Validity: Kourtesis et al. (2020) found VR-based assessment offered enhanced ecological validity compared to paper-and-pencil tests.
-3.  Adaptability: Anguera et al. (2016) used adaptive algorithms in their game-based assessment.
-4.  Scalability: Pedersen et al. (2020) demonstrated large-scale implementation with over 10,000 participants.
-5.  Technological Requirements: Studies using VR or mobile platforms highlight need for specific infrastructure.
-6.  Design Considerations: Aneni et al. (2023) found more valid assessments measured multiple neurocognitive domains and used prediction models for scoring.
-7.  Population Specificity: Several studies focused on specific age groups or populations.
+1.  Efficiency: @Pedersen2023 reported game-based measures were five times faster than equivalent task-based measures.
+    1.  Ecological Validity: @Kourtesis2020 found VR-based assessment offered enhanced ecological validity compared to paper-and-pencil tests.
+    2.  Adaptability: @Anguera2016 used adaptive algorithms in their game-based assessment.
+    3.  Scalability: @Pedersen2023 demonstrated large-scale implementation with over 10,000 participants.
+2.  Technological Requirements: Studies using VR or mobile platforms highlight need for specific infrastructure.
+3.  Design Considerations: @Aneni2023 found more valid assessments measured multiple neurocognitive domains and used prediction models for scoring.
+4.  Population Specificity: Several studies focused on specific age groups or populations.
 
-## References
+{{< pagebreak >}}
 
-Kammarauche Aneni, Isabella Gomati de la Vega, Megan G. Jiao, Melissa C Funaro, Lynn E. Fiellin (2023). Evaluating the validity of game-based assessments measuring cognitive function among children and adolescents: A systematic review and meta-analysis. Progress in Brain Research
+# Literatura 
 
-T. Bipp, Serena Wee, Marvin Walczok, Laura Hansal (2024). The Relationship Between Game-Related Assessment and Traditional Measures of Cognitive Ability—A Meta-Analysis. Journal of Intelligence
-
-K. Kiili, H. Ketamo (2018). Evaluating Cognitive and Affective Outcomes of a Digital Game-Based Math Test. IEEE Transactions on Learning Technologies
-
-Hyunjoo Song, Do-Joon Yi, Hae-Jeong Park (2020). Validation of a mobile game-based assessment of cognitive control among children and adolescents. PLoS ONE
-
-E. J. Weiner, Diana R. Sanchez (2020). Cognitive Ability in Virtual Reality: Validity Evidence for Vr Game‐Based Assessments. International Journal of Selection and Assessment
-
-M. K. Pedersen, Carlos Mauricio Castano D'iaz, Qian Janice Wang, Mario Alejandro Alba-Marrugo, A. Amidi, and 15 more (2020). Measuring Cognitive Abilities in the Wild: Validating a Population-Scale Game-Based Cognitive Assessment. Cognitive Sciences
-
-V. Shute, Lubin Wang, Samuel Greiff, Weinan Zhao, G. Moore (2016). Measuring problem solving skills via stealth assessment in an engaging video game. Computers in Human Behavior
-
-JA Anguera, AN Brandes-Aitken, CE Rolle, SN Skinner, SS Desai, and 5 more (2016). Characterizing cognitive control abilities in children with 16p11.2 deletion using adaptive ‘video game' technology: a pilot study. Translational Psychiatry
-
-M. Sliwinski, J. Mogle, Jinshil Hyun, Elizabeth Munoz, J. Smyth, and 1 more (2018). Reliability and Validity of Ambulatory Cognitive Assessments. Assessment (Odessa, Fla.)
-
-Panagiotis Kourtesis, S. Collina, Leonidas A. A. Doumas, Sarah E. MacPherson (2020). Validation of the Virtual Reality Everyday Assessment Lab (VR-EAL): An Immersive Virtual Reality Neuropsychological Battery with Enhanced Ecological Validity. Journal of the International Neuropsychological Society
+::: {#refs}
+:::

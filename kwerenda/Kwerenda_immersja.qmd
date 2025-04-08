@@ -60,6 +60,8 @@ knitr::kable("latex", booktabs = TRUE, longtable = TRUE, escape = TRUE) |>
   column_spec(5, width = "4cm")        # Słowa
 ```
 
+{{< pagebreak >}}
+
 ## Wnioski
 
 @Steinmaurer2021: Kwestionariusze są istotnym narzędziem pozyskiwania informacji od badanych i cechują się szerokim zakresem zastosowań, takich jak analiza odpowiedzi w celach ewaluacyjnych, zbieranie preferencji czy samoocena w kontekstach edukacyjnych. Jednak w zależności od sposobu zaprojektowania i umiejscowienia kwestionariusza, uczestnictwo w badaniu może być dla respondentów nużące lub frustrujące, co negatywnie wpływa na wyniki lub prowadzi do utraty zaangażowania. Literatura wskazuje na **negatywne efekty w symulacjach immersyjnych oraz grach edukacyjnych, w których kwestionariusze i oceny są realizowane poza właściwym doświadczeniem edukacyjnym**.

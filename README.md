@@ -2,7 +2,7 @@
 
 [^readme-1]: związanej z grami fabularnymi RPG
 
-## Cele edukacyjne, które realuzujemy w ramach projektu:
+## Cele edukacyjne, które realizujemy w ramach projektu:
 
 -   Opanować zastosowanie arkusza kalkulacyjnego i języka R przy współpracy naukowej
 
@@ -16,7 +16,7 @@
 
 ## Zadania planowane w ramach asystentury:
 
--   [ ] przeprowadzenie kwerendy literaturowej
+-   [x] przeprowadzenie kwerendy literaturowej
 
 -   [ ] skontaktowanie się z autorami badań i pozyskanie danych
 
@@ -24,7 +24,7 @@
 
 ### Lista szczegółowych działań
 
--   [ ] skonfigurować repo GIT
+-   [x] skonfigurować repo GIT
 
 -   [ ] wybrać oprogramowanie do gromadzenia bibliografii
 
