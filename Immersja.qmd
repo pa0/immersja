@@ -1,5 +1,8 @@
 ---
 title: "Immersja"
+format: 
+  pdf:
+    papersize: a4
 ---
 
 ## Quarto
