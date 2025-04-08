@@ -1,0 +1,131 @@
+\documentclass{article}
+
+% ---- POLSKIE ZNAKI ----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+
+% ---- UKŁAD I TABELE ----
+\usepackage[margin=1in]{geometry}
+\usepackage{ltablex}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage{caption}
+\usepackage{pdflscape}
+\usepackage{xcolor}
+
+% ---- USTAWIENIA ----
+\renewcommand\tabularxcolumn[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlength{\extrarowheight}{2pt}
+\pagestyle{empty} % brak numerów stron
+
+\begin{document}
+
+\begin{landscape} % tryb poziomy
+
+\begin{small}
+\keepXColumns
+
+% ----------------- TABELA -----------------
+\begin{tabularx}{\linewidth}{|p{0.4cm}|p{4cm}|p{3.4cm}|p{4cm}|X|}
+\hline
+\textbf{Lp} &
+\textbf{Tytuł} &
+\textbf{Autorzy} &
+\textbf{DOI} &
+\textbf{Abstrakt + wnioski} \\
+\hline
+\endfirsthead
+
+
+1.&Engagement in In-Game Questionnaires - Perspectives from Users and Experts &
+Alexander Steinmaurer, Martin Sackl, Christian Gütl &
+\url{https://ieeexplore.ieee.org/document/9459373} &
+Kwestionariusze są istotnym narzędziem pozyskiwania informacji od badanych i cechują się szerokim zakresem zastosowań, takich jak analiza odpowiedzi w celach ewaluacyjnych, zbieranie preferencji czy samoocena w kontekstach edukacyjnych. Jednak w zależności od sposobu zaprojektowania i umiejscowienia kwestionariusza, uczestnictwo w badaniu może być dla respondentów nużące lub frustrujące, co negatywnie wpływa na wyniki lub prowadzi do utraty zaangażowania. Literatura wskazuje na \textbf{negatywne efekty w symulacjach immersyjnych oraz grach edukacyjnych, w których kwestionariusze i oceny są realizowane poza właściwym doświadczeniem edukacyjnym.}
+
+W niniejszym artykule przedstawiamy podejście polegające na zintegrowaniu kwestionariuszy z otoczeniem gry. Naszym celem było \textbf{stworzenie angażującej formy odpowiadania na pytania przez uczestników}. Aby dodatkowo ich zmotywować, za wypełnianie kwestionariuszy przewidziano system nagród. Przeprowadziliśmy dwie ewaluacje: badanie A/B z udziałem 22 uczestników oraz ocenę z udziałem 14 ekspertów z dziedzin związanych z tematyką gry. Wyniki wykazały, że \textcolor{red!70!black}{uczestnicy byli bardziej zaangażowani w wypełnianie kwestionariuszy osadzonych w grze, a sama integracja pytań zwiększyła skłonność do udzielania odpowiedzi.}
+
+Dodatkowo zidentyfikowano strategie pozwalające uzyskać bardziej wiarygodne odpowiedzi, takie jak zadawanie pytań bezpośrednio po wykonaniu zadania lub wykorzystanie elementów grywalizacji. Wyniki mogą przyczynić się do projektowania bardziej angażujących aplikacji i środowisk edukacyjnych, w których ewaluacja i informacje zwrotne mają znaczenie zarówno dla nauczycieli, jak i dla uczniów.
+
+ \\
+\hline
+
+2. &Trading Accuracy for Enjoyment? Data Quality and Player Experience in Data Collection Games &
+David J. Gundry, Sebastian Deterding &
+\url{https://dl.acm.org/doi/10.1145/3491102.3502025} &
+Gry stały się popularnym sposobem zbierania danych od uczestników badań, opartym na założeniu, że są one bardziej angażujące niż tradycyjne ankiety czy eksperymenty, a jednocześnie dostarczają równie wartościowych danych. Jednak to założenie nie zostało dotychczas poddane empirycznej weryfikacji. W odpowiedzi na tę lukę \textbf{zaprojektowaliśmy grę do zbierania danych językowych w oparciu o podejście Intrinsic Elicitation – metodę projektowania mającą na celu minimalizowanie zagrożeń dla trafności w grach służących do zbierania danych – i porównaliśmy ją z równoważnym eksperymentem językoznawczym pełniącym rolę grupy kontrolnej.}
+
+W prerejestrowanym badaniu i jego replikacji (n=96 i n=136), wykorzystując dwa różne sposoby operacjonalizacji dokładności, gra zapewniała znacznie większą przyjemność z udziału (d=0.70, 0.73), ale jednocześnie generowała istotnie mniej dokładne dane (d=-0.68, -0.40) — choć nadal bardziej trafne niż odpowiedzi losowe. Wnioskujemy, że \textcolor{red!70!black}{w przypadku niektórych typów danych gry do zbierania danych mogą wiązać się z poważnym kompromisem pomiędzy przyjemnością uczestników a jakością danych}. Identyfikujemy możliwe przyczyny niższej jakości danych do dalszych badań, dokonujemy refleksji nad naszym podejściem projektowym oraz apelujemy do badaczy HCI zajmujących się grami o stosowanie odpowiednich grup kontrolnych tam, gdzie jest to uzasadnione. \\
+\hline
+
+3. &Gathering Self-Report Data in Games Through NPC Dialogues: Effects on Data Quality, Data Quantity, Player Experience, and Information Intimacy &
+Julian Frommel, Cody Phillips, Regan L. Mandryk &
+\url{https://dl.acm.org/doi/10.1145/3411764.3445411} &
+Ocena za pomocą samoopisu odgrywa istotną rolę zarówno w badaniach naukowych, jak i w projektowaniu gier, np. w celu gromadzenia danych w trakcie rozgrywki. Gry mogą wykorzystywać dialogi z postaciami niezależnymi (NPC) do zbierania danych samoopisowych, jednak gracze mogą reagować na nie inaczej niż na tradycyjne kwestionariusze. Bez jasnych wskazówek dotyczących wpływu oceny osadzonej w grze na postrzeganie i doświadczenia gracza, projektanci i badacze ryzykują podejmowanie decyzji, które mogą negatywnie wpłynąć na ilość i jakość danych oraz na poczucie prywatności uczestników.
+
+Przeprowadziliśmy \textbf{badanie użytkowników, aby porównać zbieranie danych samoopisowych za pomocą dialogów NPC i tradycyjnych kwestionariuszy w formie nakładek w grze.} Jakość danych oraz doświadczenie gracza mierzone poprzez autonomię, ciekawość, immersję i poczucie mistrzostwa nie różniły się istotnie pomiędzy formami, choć dialogi NPC nadawały większe znaczenie kontekstowi.
+
+\textcolor{red!70!black}{Dialogi NPC przyczyniły się do zwiększenia ilości danych przy zastosowaniu dobrowolnych skal pięciopunktowych, lecz nie w przypadku pytań otwartych.} Jednocześnie zwiększały postrzeganą intymność przekazywanych informacji, mimo że ich rzeczywista intymność była porównywalna do danych uzyskanych z kwestionariuszy.
+
+Dialogi NPC mogą być przydatne do zbierania ilościowych danych samoopisowych, sprzyjając jednocześnie bardziej znaczącemu doświadczeniu gry. Należy jednak uwzględnić możliwość wystąpienia negatywnych efektów związanych z postrzeganiem prywatności. \\
+\hline
+
+
+
+4. &Advancing Psychological Research: A Controlled Virtual Reality Environment for Exploring Social Dynamics in Immersive Conversational Interactions &
+Tung Khau, Giuseppe De Luca, Martina Benvenuti Elvis Mazzoni, Gerrit Meixner &
+\url{https://ieeexplore.ieee.org/document/10628556} &
+Artykuł przedstawia innowacyjne opracowanie kontrolowanego środowiska wirtualnej rzeczywistości (VR) zaprojektowanego na potrzeby eksperymentów psychologicznych i społecznych, wykorzystującego znany paradygmat Cyberball jako punkt wyjścia. Przejście od tradycyjnych, fizycznych wersji Cyberball do immersyjnego środowiska VR stanowi istotny krok naprzód w zakresie kontroli eksperymentalnej i realizmu. W przeciwieństwie jednak do konwencjonalnych implementacji Cyberball, nasze podejście odchodzi od klasycznej aktywności polegającej na rzucaniu piłki, koncentrując się na \textbf{badaniu dynamiki interpersonalnej za pomocą interakcji konwersacyjnych w wirtualnym pokoju rozmów w rzeczywistości wirtualnej.}
+
+W pracy szczegółowo omówiono projektowanie, implementację i ewaluację tego kontrolowanego środowiska VR, podkreślając jego kluczową rolę w kształtowaniu przyszłości badań psychologicznych. Uwzględniono w nim m.in. nagrane kwestie dialogowe, animacje wirtualnych postaci oraz strategie zwiększania zaangażowania uczestników. Szczegółowa analiza paradygmatu Cyberball w ramach tego środowiska VR przyczynia się do \textcolor{red!70!black}{opracowania dobrych praktyk i wytycznych w projektowaniu kontrolowanych środowisk wirtualnych, sprzyjając lepszemu zrozumieniu dynamiki społecznej i zjawisk psychologicznych.} \\
+\hline
+
+5. &Digitalising qualitative social research? On the potential of digital features to enhance data collection in qualitative research: the example of a virtual reality serious game in a qualitative research &
+Daniel Gredig, Daniele Bigoni, Jasmina Bogdanovic, Patrick Weber and Safak Korkut&
+\url{https://bristoluniversitypressdigital.com/view/journals/eswr/1/1/article-p118.xml} &
+Cyfrowe rozwiązania, takie jak wirtualna rzeczywistość (VR), rzadko były wykorzystywane w ramach zbierania danych w jakościowych badaniach w obszarze pracy socjalnej. VR wydaje się jednak szczególnie obiecującym narzędziem, ponieważ \textbf{pozwala uczestnikom zanurzyć się w sytuacji badawczej i może zwiększać trafność ekologiczną zbieranych danych.} W tym kontekście przeanalizowaliśmy wykorzystanie poważnej gry VR (serious game) w jakościowych wywiadach bezpośrednich, przeprowadzanych w ramach projektu badawczego ukierunkowanego na prewencję HIV.
+
+Zaprojektowaliśmy i opracowaliśmy immersyjną grę VR, którą następnie zintegrowaliśmy z 24 wywiadami problemowo-centrycznymi. Integracja okazała się wykonalna, a gra została dobrze przyjęta przez uczestników. Zachęcała ich do \textcolor{red!70!black}{bardziej rozbudowanego i pogłębionego opowiadania o własnych doświadczeniach}. Uczestnicy przypominali sobie epizody, o których wcześniej nie wspomnieli, uzupełniali swoje narracje i poruszali nowe tematy. Atmosfera wywiadów stawała się mniej formalna, a badani byli bardziej otwarci i komunikatywni.
+
+\textcolor{red!70!black}{Zastosowanie VR wydaje się otwierać nowe perspektywy, poszerzać możliwości epistemiczne i wzbogacać jakościowe metody badawcze, szczególnie w zakresie analizy komunikacji werbalnej i niewerbalnej oraz procesów interakcji}. Z perspektywy etycznej wykorzystanie VR wymaga jednak starannego rozważenia potencjalnych skutków ubocznych dla uczestników badania. \\
+\hline
+
+
+6. &Role-Playing Games as an Assessment Strategy for Social Skills &
+Kate A. Helbig, Evan H. Dart, Keith C. Radley &
+\url{https://www.igi-global.com/gateway/chapter/333591} &
+W tym rozdziale omówiono koncepcję ukrytej oceny (stealth assessment) jako narzędzia do oceny komunikacji społecznej. Dotychczas sceny odgrywania ról w ramach stealth assessment opierały się na zaplanowanych i scenariuszowych aktywnościach, których celem było wywołanie określonych reakcji społecznych. Reakcje te składały się zazwyczaj z wyraźnie zdefiniowanych kroków ocenianych za pomocą bezpośredniej obserwacji. Takie podejście było jednak krytykowane za sztuczność i sztywność, co ograniczało możliwości oceny uogólnionych umiejętności w bardziej naturalistycznych warunkach.
+
+Gry fabularne (RPG) stanowią elastyczne narzędzie oceny, które \textbf{sprzyja zaangażowaniu i motywacji dzięki formie opartej na grze. Udział badanych w mniej sztywnym scenariuszu gry pozwala oceniającym aranżować nieskończoną liczbę interakcji i sytuacji}, umożliwiając pozyskanie różnorodnych przykładów zachowań społecznych i tym samym prowadząc do bardziej naturalistycznej oceny umiejętności społecznych uczestników.
+
+Celem tego rozdziału jest przedstawienie wykorzystania ukrytej oceny zachowań społecznych w kontekście RPG, omówienie strategii dla oceniających oraz przegląd wyników empirycznej oceny podejścia RPG jako narzędzia diagnostycznego. \\
+\hline
+
+7. &The effects of role-playing high gender identification on the California psychological inventory &
+James F. Montross, Faye Neas, Christina L. Smith, John H. Hensley &
+\url{https://doi.org/10.1002/1097-4679(198803)44:2<160::AID-JCLP2270440211>3.0.CO;2-W} &
+Badanie dotyczące California Psychological Inventory (CPI) pokazuje, że uczestnicy mogą znacząco zmieniać swoje profile CPI poprzez odgrywanie ról z silną identyfikacją płciową, tzn. \textcolor{red!70!black}{mężczyźni starają się wypaść jako bardziej męscy, a kobiety jako bardziej kobiece}. Większość badanych była w stanie to osiągnąć bez wykrycia przez skale trafności, które służą do identyfikowania prób fałszowania wyników w pozytywnym lub negatywnym kierunku.
+
+W badaniu wzięło udział 32 ochotników — 16 mężczyzn i 16 kobiet. Zastosowano schemat analizy wariancji 2 × 2 (płeć uczestnika × instrukcja odgrywania roli vs. instrukcja standardowa). Stwierdzono istotny główny efekt (p < 0,01) dla instrukcji na 14 z 18 skal oraz istotną interakcję (p < 0,01) na 4 z 18 skal. Profile osób odgrywających role wskazują, że stereotypy obu płci — tak jak postrzegają je uczestnicy — mają charakter nieadaptacyjny.
+
+W artykule omówiono również praktyczne implikacje uzyskanych wyników. \\
+\hline
+
+
+8. &Effects of scene manipulation on role-play test behavior &
+Robert T. Ammerman, Michel Hersen &
+\url{https://doi.org/10.1007/BF00960873} &
+Wiele badań wykazało, że manipulowanie elementami procedury testu odgrywania ról różnicuje zachowanie uczestników. Obszarem, który nie był jednak szeroko badany w kontekście paradygmatu role-play, jest \textbf{wpływ oczekiwań dotyczących wyniku (outcome expectancy) na zachowania interpersonalne.} W niniejszym badaniu oceniono zależność między oczekiwaniami a zachowaniem, manipulując opisami scen w teście role-play. Do opisów dodano informacje sugerujące, że osoba odgrywająca rolę partnera interakcji jest łatwa do nawiązania kontaktu (pozytywne oczekiwania) lub trudna do nawiązania kontaktu (negatywne oczekiwania).
+
+Następnie interakcje odgrywane przez uczestników zostały ocenione na podstawie różnych wskaźników werbalnych i niewerbalnych kompetencji społecznych. Dane wykazały, że \textcolor{red!70!black}{uczestnicy byli mniej skuteczni społecznie w scenach z negatywnymi oczekiwaniami. Z kolei w scenach z pozytywnymi oczekiwaniami ich zachowania były oceniane jako nieco bardziej efektywne społecznie. Dodatkowo osoby o wysokim poziomie lęku (określonym na podstawie samoopisowych kwestionariuszy) okazały się bardziej podatne na manipulację oczekiwaniami niż osoby o niskim poziomie lęku.}
+
+Wyniki omówiono w kontekście (1) roli oczekiwań dotyczących wyniku w zachowaniach interpersonalnych oraz (2) potrzeby dalszego udoskonalania testów typu role-play. \\
+\hline
+
+\end{tabularx}
+
+\end{small}
+
+\end{landscape} % <--- koniec strony poziomej
+
+\end{document}
