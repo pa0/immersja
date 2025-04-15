@@ -9,7 +9,7 @@ format:
     toc: false
     keep-tex: false
     number_sections: false
-fontsize: 10pt
+fontsize: 11pt
 mainfont: "Times New Roman"
 lang: pl
 geometry: landscape
